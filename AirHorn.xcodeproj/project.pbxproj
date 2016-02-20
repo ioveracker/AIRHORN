@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788AB3FB1C77DDA200AC5134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB3FA1C77DDA200AC5134 /* AppDelegate.swift */; };
+		788AB3FD1C77DDA200AC5134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB3FC1C77DDA200AC5134 /* ViewController.swift */; };
+		788AB4001C77DDA200AC5134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788AB3FE1C77DDA200AC5134 /* Main.storyboard */; };
+		788AB4021C77DDA200AC5134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4011C77DDA200AC5134 /* Assets.xcassets */; };
+		788AB4051C77DDA200AC5134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4031C77DDA200AC5134 /* LaunchScreen.storyboard */; };
+		788AB40A1C77DDA200AC5134 /* AirHorn WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 788AB4091C77DDA200AC5134 /* AirHorn WatchKit App.app */; };
+		788AB4101C77DDA200AC5134 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788AB40E1C77DDA200AC5134 /* Interface.storyboard */; };
+		788AB4121C77DDA200AC5134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4111C77DDA200AC5134 /* Assets.xcassets */; };
+		788AB4191C77DDA200AC5134 /* AirHorn WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 788AB4181C77DDA200AC5134 /* AirHorn WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		788AB41E1C77DDA200AC5134 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB41D1C77DDA200AC5134 /* InterfaceController.swift */; };
+		788AB4201C77DDA200AC5134 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB41F1C77DDA200AC5134 /* ExtensionDelegate.swift */; };
+		788AB4221C77DDA200AC5134 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB4211C77DDA200AC5134 /* GlanceController.swift */; };
+		788AB4241C77DDA200AC5134 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB4231C77DDA200AC5134 /* ComplicationController.swift */; };
+		788AB4261C77DDA200AC5134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4251C77DDA200AC5134 /* Assets.xcassets */; };
+		788AB43B1C77E0BE00AC5134 /* AirHorn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB4391C77E0BE00AC5134 /* AirHorn.swift */; };
+		788AB43C1C77E0BE00AC5134 /* AirHorn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB4391C77E0BE00AC5134 /* AirHorn.swift */; };
+		788AB43D1C77E0BE00AC5134 /* AirHorn_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788AB43A1C77E0BE00AC5134 /* AirHorn_iOS.swift */; };
+		788AB4431C77EDAF00AC5134 /* air-horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4421C77EDAF00AC5134 /* air-horn.wav */; };
+		788AB4441C77EDAF00AC5134 /* air-horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4421C77EDAF00AC5134 /* air-horn.wav */; };
+		788AB4451C77EDAF00AC5134 /* air-horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 788AB4421C77EDAF00AC5134 /* air-horn.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788AB40B1C77DDA200AC5134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788AB3EF1C77DDA200AC5134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788AB4081C77DDA200AC5134;
+			remoteInfo = "AirHorn WatchKit App";
+		};
+		788AB41A1C77DDA200AC5134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788AB3EF1C77DDA200AC5134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788AB4171C77DDA200AC5134;
+			remoteInfo = "AirHorn WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		788AB42D1C77DDA200AC5134 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				788AB4191C77DDA200AC5134 /* AirHorn WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788AB4311C77DDA200AC5134 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				788AB40A1C77DDA200AC5134 /* AirHorn WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		788AB3F71C77DDA200AC5134 /* AirHorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirHorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788AB3FA1C77DDA200AC5134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		788AB3FC1C77DDA200AC5134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		788AB3FF1C77DDA200AC5134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		788AB4011C77DDA200AC5134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788AB4041C77DDA200AC5134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		788AB4061C77DDA200AC5134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788AB4091C77DDA200AC5134 /* AirHorn WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirHorn WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788AB40F1C77DDA200AC5134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		788AB4111C77DDA200AC5134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788AB4131C77DDA200AC5134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788AB4181C77DDA200AC5134 /* AirHorn WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AirHorn WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788AB41D1C77DDA200AC5134 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		788AB41F1C77DDA200AC5134 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		788AB4211C77DDA200AC5134 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		788AB4231C77DDA200AC5134 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		788AB4251C77DDA200AC5134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788AB4271C77DDA200AC5134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788AB4391C77E0BE00AC5134 /* AirHorn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirHorn.swift; sourceTree = "<group>"; };
+		788AB43A1C77E0BE00AC5134 /* AirHorn_iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirHorn_iOS.swift; sourceTree = "<group>"; };
+		788AB4421C77EDAF00AC5134 /* air-horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "air-horn.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788AB3F41C77DDA200AC5134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788AB4151C77DDA200AC5134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788AB3EE1C77DDA200AC5134 = {
+			isa = PBXGroup;
+			children = (
+				788AB3F91C77DDA200AC5134 /* AirHorn */,
+				788AB40D1C77DDA200AC5134 /* AirHorn WatchKit App */,
+				788AB41C1C77DDA200AC5134 /* AirHorn WatchKit Extension */,
+				788AB3F81C77DDA200AC5134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788AB3F81C77DDA200AC5134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788AB3F71C77DDA200AC5134 /* AirHorn.app */,
+				788AB4091C77DDA200AC5134 /* AirHorn WatchKit App.app */,
+				788AB4181C77DDA200AC5134 /* AirHorn WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788AB3F91C77DDA200AC5134 /* AirHorn */ = {
+			isa = PBXGroup;
+			children = (
+				788AB3FA1C77DDA200AC5134 /* AppDelegate.swift */,
+				788AB3FC1C77DDA200AC5134 /* ViewController.swift */,
+				788AB3FE1C77DDA200AC5134 /* Main.storyboard */,
+				788AB4011C77DDA200AC5134 /* Assets.xcassets */,
+				788AB4031C77DDA200AC5134 /* LaunchScreen.storyboard */,
+				788AB4061C77DDA200AC5134 /* Info.plist */,
+				788AB4391C77E0BE00AC5134 /* AirHorn.swift */,
+				788AB43A1C77E0BE00AC5134 /* AirHorn_iOS.swift */,
+				788AB4421C77EDAF00AC5134 /* air-horn.wav */,
+			);
+			path = AirHorn;
+			sourceTree = "<group>";
+		};
+		788AB40D1C77DDA200AC5134 /* AirHorn WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				788AB40E1C77DDA200AC5134 /* Interface.storyboard */,
+				788AB4111C77DDA200AC5134 /* Assets.xcassets */,
+				788AB4131C77DDA200AC5134 /* Info.plist */,
+			);
+			path = "AirHorn WatchKit App";
+			sourceTree = "<group>";
+		};
+		788AB41C1C77DDA200AC5134 /* AirHorn WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				788AB41D1C77DDA200AC5134 /* InterfaceController.swift */,
+				788AB41F1C77DDA200AC5134 /* ExtensionDelegate.swift */,
+				788AB4211C77DDA200AC5134 /* GlanceController.swift */,
+				788AB4231C77DDA200AC5134 /* ComplicationController.swift */,
+				788AB4251C77DDA200AC5134 /* Assets.xcassets */,
+				788AB4271C77DDA200AC5134 /* Info.plist */,
+			);
+			path = "AirHorn WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788AB3F61C77DDA200AC5134 /* AirHorn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788AB4321C77DDA200AC5134 /* Build configuration list for PBXNativeTarget "AirHorn" */;
+			buildPhases = (
+				788AB3F31C77DDA200AC5134 /* Sources */,
+				788AB3F41C77DDA200AC5134 /* Frameworks */,
+				788AB3F51C77DDA200AC5134 /* Resources */,
+				788AB4311C77DDA200AC5134 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788AB40C1C77DDA200AC5134 /* PBXTargetDependency */,
+			);
+			name = AirHorn;
+			productName = AirHorn;
+			productReference = 788AB3F71C77DDA200AC5134 /* AirHorn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788AB4081C77DDA200AC5134 /* AirHorn WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788AB42E1C77DDA200AC5134 /* Build configuration list for PBXNativeTarget "AirHorn WatchKit App" */;
+			buildPhases = (
+				788AB4071C77DDA200AC5134 /* Resources */,
+				788AB42D1C77DDA200AC5134 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788AB41B1C77DDA200AC5134 /* PBXTargetDependency */,
+			);
+			name = "AirHorn WatchKit App";
+			productName = "AirHorn WatchKit App";
+			productReference = 788AB4091C77DDA200AC5134 /* AirHorn WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		788AB4171C77DDA200AC5134 /* AirHorn WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788AB42A1C77DDA200AC5134 /* Build configuration list for PBXNativeTarget "AirHorn WatchKit Extension" */;
+			buildPhases = (
+				788AB4141C77DDA200AC5134 /* Sources */,
+				788AB4151C77DDA200AC5134 /* Frameworks */,
+				788AB4161C77DDA200AC5134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirHorn WatchKit Extension";
+			productName = "AirHorn WatchKit Extension";
+			productReference = 788AB4181C77DDA200AC5134 /* AirHorn WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788AB3EF1C77DDA200AC5134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Isaac Overacker";
+				TargetAttributes = {
+					788AB3F61C77DDA200AC5134 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N4E7457U38;
+					};
+					788AB4081C77DDA200AC5134 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N4E7457U38;
+					};
+					788AB4171C77DDA200AC5134 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N4E7457U38;
+					};
+				};
+			};
+			buildConfigurationList = 788AB3F21C77DDA200AC5134 /* Build configuration list for PBXProject "AirHorn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 788AB3EE1C77DDA200AC5134;
+			productRefGroup = 788AB3F81C77DDA200AC5134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788AB3F61C77DDA200AC5134 /* AirHorn */,
+				788AB4081C77DDA200AC5134 /* AirHorn WatchKit App */,
+				788AB4171C77DDA200AC5134 /* AirHorn WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788AB3F51C77DDA200AC5134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788AB4431C77EDAF00AC5134 /* air-horn.wav in Resources */,
+				788AB4051C77DDA200AC5134 /* LaunchScreen.storyboard in Resources */,
+				788AB4021C77DDA200AC5134 /* Assets.xcassets in Resources */,
+				788AB4001C77DDA200AC5134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788AB4071C77DDA200AC5134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788AB4121C77DDA200AC5134 /* Assets.xcassets in Resources */,
+				788AB4441C77EDAF00AC5134 /* air-horn.wav in Resources */,
+				788AB4101C77DDA200AC5134 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788AB4161C77DDA200AC5134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788AB4451C77EDAF00AC5134 /* air-horn.wav in Resources */,
+				788AB4261C77DDA200AC5134 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788AB3F31C77DDA200AC5134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788AB43B1C77E0BE00AC5134 /* AirHorn.swift in Sources */,
+				788AB43D1C77E0BE00AC5134 /* AirHorn_iOS.swift in Sources */,
+				788AB3FD1C77DDA200AC5134 /* ViewController.swift in Sources */,
+				788AB3FB1C77DDA200AC5134 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788AB4141C77DDA200AC5134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788AB43C1C77E0BE00AC5134 /* AirHorn.swift in Sources */,
+				788AB4201C77DDA200AC5134 /* ExtensionDelegate.swift in Sources */,
+				788AB4241C77DDA200AC5134 /* ComplicationController.swift in Sources */,
+				788AB41E1C77DDA200AC5134 /* InterfaceController.swift in Sources */,
+				788AB4221C77DDA200AC5134 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788AB40C1C77DDA200AC5134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788AB4081C77DDA200AC5134 /* AirHorn WatchKit App */;
+			targetProxy = 788AB40B1C77DDA200AC5134 /* PBXContainerItemProxy */;
+		};
+		788AB41B1C77DDA200AC5134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788AB4171C77DDA200AC5134 /* AirHorn WatchKit Extension */;
+			targetProxy = 788AB41A1C77DDA200AC5134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788AB3FE1C77DDA200AC5134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788AB3FF1C77DDA200AC5134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		788AB4031C77DDA200AC5134 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788AB4041C77DDA200AC5134 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		788AB40E1C77DDA200AC5134 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788AB40F1C77DDA200AC5134 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788AB4281C77DDA200AC5134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		788AB4291C77DDA200AC5134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788AB42B1C77DDA200AC5134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "AirHorn WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.overacker.AirHorn.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		788AB42C1C77DDA200AC5134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "AirHorn WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.overacker.AirHorn.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		788AB42F1C77DDA200AC5134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AirHorn_WatchKit_Extension;
+				INFOPLIST_FILE = "AirHorn WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.overacker.AirHorn.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		788AB4301C77DDA200AC5134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AirHorn_WatchKit_Extension;
+				INFOPLIST_FILE = "AirHorn WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.overacker.AirHorn.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		788AB4331C77DDA200AC5134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AirHorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.overacker.AirHorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		788AB4341C77DDA200AC5134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AirHorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.overacker.AirHorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788AB3F21C77DDA200AC5134 /* Build configuration list for PBXProject "AirHorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788AB4281C77DDA200AC5134 /* Debug */,
+				788AB4291C77DDA200AC5134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788AB42A1C77DDA200AC5134 /* Build configuration list for PBXNativeTarget "AirHorn WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788AB42B1C77DDA200AC5134 /* Debug */,
+				788AB42C1C77DDA200AC5134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788AB42E1C77DDA200AC5134 /* Build configuration list for PBXNativeTarget "AirHorn WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788AB42F1C77DDA200AC5134 /* Debug */,
+				788AB4301C77DDA200AC5134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788AB4321C77DDA200AC5134 /* Build configuration list for PBXNativeTarget "AirHorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788AB4331C77DDA200AC5134 /* Debug */,
+				788AB4341C77DDA200AC5134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788AB3EF1C77DDA200AC5134 /* Project object */;
+}
